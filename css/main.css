@@ -1,0 +1,50 @@
+body{background-image:url(../img/estrelas.jpg);width: 100%; height: 100%; margin: 0 auto;
+}
+@font-face {
+    font-family: 'dalek_pinpointbold';
+    src: url('../fontes/webfontkit-20200825-101147/dalekpinpointbold-webfont.woff2') format('woff2'),
+         url('../fontes/webfontkit-20200825-101147/dalekpinpointbold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+/*PRIMEIRO MAIN*/
+.menu-principal{width: 100%; height: 140px;background-color:#696969;}
+.contato ul li{display: inline-block; list-style:none;}
+.contato{float:right; width: 20%;}
+.imagem{border-radius: 50px; box-shadow: 0px 0px 10px white;margin-left: 20px;}
+.logo{padding: 16px; width: 20%; float: left;}
+.busca input{float:right; height: 20px; width: 190px; margin-right: 20px;padding: 7px; 
+    background-image:url(../img/pesquisa.png); background-repeat: no-repeat; background-position: 96%; background-size: 20px;
+    border-radius: 20px;transition-duration:0.5s;border: none;
+}
+.busca :hover{background-color:#efb115;}
+/*ESQUERDO*/
+.botoes ul li{background-color:#ccc; padding: 15px; list-style: none; width: 10%; border-radius: 20px;
+    margin-top: 40px; position: left; text-align: center;border:1px solid white;font-family: 'dalek_pinpointbold'; 
+}
+.botoes ul li:hover{background-color: white;}
+.dis{margin-top: 100px;}
+/*MEIO*/
+.header2{background-color: #ccc; height: 1580px; width:500px; margin:auto; 
+    box-shadow:3px 2px 5px black; padding:20px; border-radius: 12px;
+    text-align: justify; text-align: center; font-size: 20px;font-family: 'Alata', sans-serif;
+}
+.cons{text-align: center; background-color: darkslategrey;border-radius: 20px;
+box-shadow:1px 1px 5px #696969; padding:20px;font-family: 'dalek_pinpointbold';}
+.cons:hover{background-color:gray;}
+.zeus{background-color: white; padding:15px; border-radius: 10px; text-align: left; width:10%;} 
+.hades{color:white;background-color:black; padding:15px; border-radius: 10px; text-align: left; width:10%}
+.poseidon{background-color:#0279bd; padding:15px; border-radius: 10px; text-align: left; width:15%}
+.atena{background-color: darkgoldenrod; padding:15px; border-radius: 10px; text-align: left; width:12%}
+.hermes{background-color: darkturquoise; padding:15px; border-radius: 10px; text-align: left; width:12%}
+.ares{background-color:darkred; padding:15px; border-radius: 10px; text-align: left; width:9%}
+.afrodite{background-color: palevioletred; padding:15px; border-radius: 10px; text-align: left; width:15%}
+.apolo{background-color: gold; padding:15px; border-radius: 10px; text-align: left; width:12%}
+.demeter{background-color: green; padding:15px; border-radius: 10px; text-align: left; width:14%}
+.hecate{background-color:purple; padding:15px; border-radius: 10px; text-align: left; width:12%}
+.quione{background-color: cyan; padding:15px; border-radius: 10px; text-align: left; width:12%}
+.tanatos{background-color:brown; padding:15px; border-radius: 10px; text-align: left; width:12%}
+.persefone{background-color: palevioletred; padding:15px; border-radius: 10px; text-align: left; width:16%}
+.hipnos{background-color: cadetblue; padding:15px; border-radius: 10px; text-align: left; width:12%}
+/*DIREITO*/
+.camp{border-radius: 10px; width: 22%; height: 22%;float: right; margin-top: 50px;}
